@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "fakepay",
+  "version": "${version}",
+  "name": "Fake Pay",
+  "description": "A client-only cosmetic payment simulator. It never sends payment commands to a server.",
+  "authors": ["Txmersk"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.txmersk.fakepay.FakePayClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "1.21.10",
+    "fabric-api": "*"
+  }
+}
