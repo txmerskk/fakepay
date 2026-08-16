@@ -1,5 +1,8 @@
+YAML
 name: Build Fabric Mod
-on: [push]
+on: 
+  push:
+  workflow_dispatch:
 
 jobs:
   build:
